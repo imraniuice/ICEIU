@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myhonourableteacher.iceiu.iceiu">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Alamgir"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Amirul"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".IceStuff"/>
+        <activity
+            android:name=".Ashek"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Azadur"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".IceStuff"/>
+        <activity
+            android:name=".Bikash"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Fotik"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".IceStuff"/>
+        <activity
+            android:name=".IceStuff"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Jahangir"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".IceStuff"/>
+        <activity
+            android:name=".Jahurul"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".IceStuff"/>
+        <activity
+            android:name=".Jashim"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Mahbubur"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Mobarek"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".IceStuff"/>
+        <activity
+            android:name=".Muktadir"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".IceStuff"/>
+        <activity
+            android:name=".MyTeacher"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Paresh"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Rubina"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".IceStuff"/>
+        <activity
+            android:name=".Sadek"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Selim"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".IceStuff"/>
+        <activity
+            android:name=".Shahidul"
+            android:label="@string/title_activity_ice_stuff"
+            android:parentActivityName=".IceStuff"/>
+        <activity
+            android:name=".Shariful"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Sipon"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Tapan"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Tarek"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Tariquzzaman"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+        <activity
+            android:name=".Zahidul"
+            android:label="@string/title_activity_ice_teacher"
+            android:parentActivityName=".MyTeacher"/>
+
+
+    </application>
+
+</manifest>

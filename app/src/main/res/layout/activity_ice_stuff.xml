@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/back2"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_my_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.myhonourableteacher.iceiu.myhonourableteacher.MyTeacher">
+        <Button
+            android:text="MD. Shahidul Islam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/a"
+            android:onClick="Shahidul"/>
+        <Button
+            android:text="Selim Ahmed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/b"
+            android:onClick="Selim"/>
+        <Button
+            android:text="Azadur Rahman"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/c"
+            android:onClick="Azadur"/>
+        <Button
+            android:text=" MD. Abu Muktadir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/d"
+            android:onClick="Muktadir"/>
+        <Button
+            android:text="Amirul Islam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/j"
+            android:onClick="Amirul"/>
+        <Button
+            android:text=" MD. Jahurul Islam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/e"
+            android:onClick="Jahurul"/>
+        <Button
+            android:text="Rubina Islam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/f"
+            android:onClick="Rubina"/>
+        <Button
+            android:text="Gias Uddin Fotik"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/g"
+            android:onClick="Fotik"/>
+        <Button
+            android:text="Mobarek Hossain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/h"
+            android:onClick="Mobarek"/>
+        <Button
+            android:text="Jahangir Hossain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/i"
+            android:onClick="Jahangir"/>
+
+    </LinearLayout>
+</ScrollView>
+

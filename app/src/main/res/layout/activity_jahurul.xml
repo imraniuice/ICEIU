@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_alamgir"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.example.devil.mysession.AbirActivity"
+        android:orientation="vertical"
+        android:paddingTop="65dp"
+        android:background="#A4C2E5"
+        android:paddingBottom="250dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MD. Jahurul Islam"
+            android:textSize="30dp"
+            android:textColor="#D44927"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:textStyle="normal|bold|italic"
+            />
+
+
+        <ImageView
+            android:src="@drawable/jahrul"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_height="140dp"
+            android:layout_width="300dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" L.D.  \n E-mail: N/A \n Contact No.................... "
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:contextClickable="false"
+            android:cursorVisible="false"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:id="@+id/call"
+            android:text="01723721159"
+            android:layout_width="141dp"
+            android:layout_gravity="center"
+            android:paddingTop="1dp"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+    </LinearLayout>
+</ScrollView>
